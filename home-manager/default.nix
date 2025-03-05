@@ -43,7 +43,7 @@
 
   home.file = {
     ".hushlogin".text = "";
-    # ".npmrc".source = ../secrets/.npmrc;
+    ".npmrc".source = ../secrets/.npmrc;
   };
 
   xdg.enable = true;
