@@ -10,7 +10,7 @@
   networking.hostName = hostname;
   networking.computerName = hostname;
 
-  nix.gc.automatic = true;
+  nix.enable = false;
 
   security.pam.services.sudo_local.touchIdAuth = true;
 
