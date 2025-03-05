@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.linearmouse.app/0.10.0",
+  "schemes": [
+    {
+      "if": {
+        "device": {
+          "category": "mouse",
+          "productID": "0xd031",
+          "vendorID": "0x3434",
+          "productName": "Keychron Link "
+        }
+      },
+      "buttons": {
+        "universalBackForward": true,
+        "mappings": [
+          {
+            "control": false,
+            "command": false,
+            "action": "missionControl",
+            "shift": false,
+            "button": 2,
+            "option": false
+          }
+        ]
+      },
+      "pointer": {
+        "acceleration": 0.1444,
+        "disableAcceleration": false,
+        "speed": 0.6
+      },
+      "scrolling": {
+        "acceleration": {
+          "vertical": 1
+        },
+        "distance": {
+          "vertical": 3
+        },
+        "reverse": {
+          "vertical": true
+        },
+        "speed": {
+          "vertical": 0
+        }
+      }
+    }
+  ]
+}
