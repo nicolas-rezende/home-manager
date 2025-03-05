@@ -14,7 +14,6 @@
     eza
     bat
     fzf
-    devbox
     transcrypt
     nodejs_22
     pnpm_9
