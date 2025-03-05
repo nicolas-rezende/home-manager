@@ -43,7 +43,6 @@
               nix-homebrew = {
                 enable = true;
                 enableRosetta = true;
-                autoMigrate = true;
                 user = moduleArgs.username;
               };
             }
