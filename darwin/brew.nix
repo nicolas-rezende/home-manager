@@ -15,6 +15,7 @@
       "fork"
       "linearmouse"
       "sanesidebuttons"
+      "shottr"
     ];
     masApps = {
       Xcode = 497799835;
