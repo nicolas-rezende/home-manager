@@ -38,6 +38,7 @@
     rm = "rm -rf";
     cp = "cp -r";
     c = "clear";
+    v = "open $1 -a \"Visual Studio Code\"";
   };
 
   home.file = {

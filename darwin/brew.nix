@@ -3,6 +3,7 @@
     enable = true;
     brews = ["cocoapods"];
     casks = [
+      "firefox"
       "google-chrome"
       "visual-studio-code"
       "betterdisplay"
