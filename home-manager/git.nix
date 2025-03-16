@@ -4,6 +4,7 @@
     settings = {
       update.method = "never";
       disableStartupPopups = true;
+      git.autoFetch = false;
     };
   };
 

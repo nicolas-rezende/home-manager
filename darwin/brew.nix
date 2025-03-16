@@ -14,6 +14,7 @@
       "openvpn-connect"
       "docker"
       "fork"
+      "vmware-fusion"
       "linearmouse"
       "sanesidebuttons"
       "shottr"

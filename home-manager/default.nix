@@ -49,7 +49,6 @@
   xdg.enable = true;
   xdg.configFile = {
     "ghostty/config".source = ../dotfiles/ghostty-config;
-    "linearmouse/linearmouse.json".source = ../dotfiles/linearmouse.json;
   };
 
   home.sessionVariables = {
