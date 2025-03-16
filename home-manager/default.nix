@@ -22,6 +22,7 @@
     nixd
     alejandra
     jetbrains-mono
+    flyctl
   ];
 
   fonts.fontconfig.enable = true;
