@@ -4,6 +4,7 @@
     brews = ["cocoapods"];
     casks = [
       "firefox"
+      "android-studio"
       "google-chrome"
       "visual-studio-code"
       "betterdisplay"
