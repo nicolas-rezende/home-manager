@@ -56,6 +56,9 @@
     # EDITOR = "emacs";
   };
 
+  # Add OpenJDK
+  programs.java.enable = true;
+
   imports = [
     ./git.nix
     ./zsh.nix
