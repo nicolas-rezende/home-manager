@@ -23,7 +23,6 @@
     ];
     masApps = {
       Xcode = 497799835;
-      Infuse = 1136220934;
     };
     onActivation = {
       autoUpdate = true;
