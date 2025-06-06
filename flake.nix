@@ -17,11 +17,11 @@
     ...
   }: {
     darwinConfigurations = {
-      "m1-macbook-pro" = let
+      "macbook" = let
         moduleArgs =
           inputs
           // {
-            hostname = "m1-macbook-pro";
+            hostname = "macbook";
             username = "nicolas";
             homeDir = "/Users/nicolas";
           };
@@ -30,7 +30,7 @@
           system = "aarch64-darwin";
           specialArgs = moduleArgs;
           modules = [
-            ./darwin/m1-macbook-pro.nix
+            ./darwin/macbook.nix
             home-manager.darwinModules.home-manager
             {
               home-manager.useGlobalPkgs = true;

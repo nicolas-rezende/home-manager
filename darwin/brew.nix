@@ -7,6 +7,7 @@
       "android-studio"
       "google-chrome"
       "visual-studio-code"
+      "cursor"
       "betterdisplay"
       "raycast"
       "discord"
@@ -19,7 +20,10 @@
       "linearmouse"
       "sanesidebuttons"
       "shottr"
-      "fork"
+      "appcleaner"
+      "bruno"
+      "spotify"
+      "obsidian"
     ];
     masApps = {
       Xcode = 497799835;

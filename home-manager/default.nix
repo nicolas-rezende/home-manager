@@ -17,6 +17,7 @@
     transcrypt
     nodejs_22
     pnpm_9
+    bun
     ghq
     jq
     nixd
@@ -26,6 +27,11 @@
   ];
 
   fonts.fontconfig.enable = true;
+
+  home.sessionPath = [
+    "$ANDROID_HOME/build-tools/36.0.0"
+    "$ANDROID_HOME/platform-tools"
+  ];
 
   home.shellAliases = {
     reload = "source ~/.zshrc";
@@ -53,7 +59,7 @@
   };
 
   home.sessionVariables = {
-    # EDITOR = "emacs";
+    "ANDROID_HOME" = "/Users/nicolas/Library/Android/sdk";
   };
 
   # Add OpenJDK
