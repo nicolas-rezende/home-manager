@@ -46,6 +46,7 @@
     cp = "cp -r";
     c = "clear";
     v = "cursor";
+    ai = "npx https://github.com/google-gemini/gemini-cli";
   };
 
   home.file = {

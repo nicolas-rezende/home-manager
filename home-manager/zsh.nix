@@ -17,7 +17,7 @@
       }
 
       r() {
-        dir_path=$(ghq list -p | fzf)
+        dir_path=$( (ghq list -p; find "$HOME/Developer" -maxdepth 1 -type d 2>/dev/null) | fzf )
 
         if [[ -n "$dir_path" ]]; then
           cd "$dir_path"
