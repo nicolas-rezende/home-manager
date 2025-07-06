@@ -1,4 +1,5 @@
 {hostname, ...}: {
+  system.primaryUser = "nicolas";
   system.defaults = {
     smb.NetBIOSName = hostname;
     NSGlobalDomain = {

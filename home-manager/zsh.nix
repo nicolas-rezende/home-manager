@@ -8,7 +8,7 @@
       enable = true;
       theme = "lukerandall";
     };
-    initExtra = ''
+    initContent = ''
       unalias md
 
       md() {
